@@ -22,6 +22,17 @@ body {
 .slider-container {
   max-width: 70vw;
 }
+
+#introduction {
+  padding: 50px;
+  text-align: center;
+}
+
+#introduction h1 {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
 .swiper-button-next,
 .swiper-button-prev {
   background-color: #fff;
@@ -64,3 +75,25 @@ body {
   }
 }
 
+@media (max-width: 900px) {
+  #introduction h1 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 460px) {
+  #introduction h1 {
+    font-size: 30px;
+  }
+  #introduction p {
+    font-size: 14px;
+  }
+}
+@media (max-width: 360px) {
+  #introduction h1 {
+    font-size: 25px;
+  }
+  #introduction p {
+    font-size: 12px;
+  }
+}
