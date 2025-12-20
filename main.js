@@ -1,3 +1,4 @@
+import { defaultSl } from "./sliders/defaultSl.js";
 
 addEventListener("DOMContentLoaded", mainSlider);
 
@@ -15,4 +16,10 @@ function mainSlider() {
       prevEl: ".swiper-button-prev",
     },
   });
+
+  sideSliders();
+}
+
+function sideSliders() {
+  defaultSl();
 }

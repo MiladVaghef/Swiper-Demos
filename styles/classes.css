@@ -8,6 +8,12 @@
 flex-direction: column;
 }
 
+.primary-slider-color {
+    background-color: var(--primary-slider-color);
+}
+.secondary-slider-color{
+    background-color: var(--secondary-slider-color);
+}
 
 .progress-pagination span {
     background: var(--secondary-color)!important }

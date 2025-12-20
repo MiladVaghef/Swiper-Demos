@@ -1,0 +1,11 @@
+#default-slider {
+    width: 100%;
+    height: 600px;
+    border-radius: 10px;
+}
+
+#default-slider span {
+    font-size: 4rem;
+    height: 600px;
+    width: 100%;
+}
