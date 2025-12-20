@@ -1,1 +1,6 @@
+@import "./styles/background.css";
+:root {
+    --primary-bg-color: #e39a0a;
+    --bg-squares-color:rgba(255, 255, 255, 0.2);
+    }
 
