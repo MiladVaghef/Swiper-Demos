@@ -1,4 +1,5 @@
 import { defaultSl } from "./sliders/defaultSl.js";
+import { paginationSlider } from "./sliders/paginationSl.js";
 
 addEventListener("DOMContentLoaded", mainSlider);
 
@@ -22,4 +23,5 @@ function mainSlider() {
 
 function sideSliders() {
   defaultSl();
+  paginationSlider();
 }

@@ -1,0 +1,11 @@
+#pagination-swiper {
+    width: 100%;
+    height: 600px;
+    border-radius: 10px;
+}
+
+#pagination-swiper .swiper-wrapper span {
+    font-size: 4rem;
+    height: 600px;
+    width: 100%;
+}

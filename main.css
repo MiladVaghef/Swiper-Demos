@@ -2,6 +2,7 @@
 @import "./styles/background.css";
 @import "./styles/classes.css";
 @import "./sliders/defaultSl.css";
+@import "./sliders/paginationSl.css";
 :root {
   --secondary-color: #f0f0f0;
   --primary-bg-color: #e39a0a;
