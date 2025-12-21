@@ -6,8 +6,6 @@ addEventListener("DOMContentLoaded", mainSlider);
 
 function mainSlider() {
   const swiper = new Swiper("#main-slider", {
-    initialSlide: 1, // ✅ start from slide 1
-
     pagination: {
       el: ".swiper-pagination",
       type: "progressbar",
