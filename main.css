@@ -22,10 +22,7 @@ body {
   padding: 0%;
 }
 
-.swiper-slide {
-  height: 100vh;
-}
-.swiper-wrapper {
+#main-slider {
   height: 100vh;
 }
 
@@ -53,11 +50,11 @@ body {
 }
 
 .swiper-button-next {
-  right: 20px !important;
+  right: 25px !important;
 }
 
 .swiper-button-prev {
-  left: 20px !important;
+  left: 25px !important;
 }
 
 .swiper-button-next,
@@ -94,13 +91,21 @@ body {
 @media (max-width: 1200px) {
   .swiper-button-next,
   .swiper-button-prev {
-    top: var(--swiper-navigation-top-offset, 95%) !important;
+    top: unset !important;
+    bottom: 25px !important;
+  }
+  .slider-container {
+    max-width: 70vw;
+    margin-bottom: 30px
   }
 }
 
 @media (max-width: 900px) {
   #introduction h1 {
     font-size: 40px;
+  }
+  .description {
+    margin-top: 30px;
   }
 }
 
