@@ -1,19 +1,20 @@
 .flex {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .column {
-flex-direction: column;
+  flex-direction: column;
 }
 
 .primary-slider-color {
-    background-color: var(--primary-slider-color);
+  background-color: var(--primary-slider-color);
 }
-.secondary-slider-color{
-    background-color: var(--secondary-slider-color);
+.secondary-slider-color {
+  background-color: var(--secondary-slider-color);
 }
 
 .progress-pagination span {
-    background: var(--secondary-color)!important }
+  background: var(--secondary-color) !important;
+}
