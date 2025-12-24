@@ -1,0 +1,15 @@
+#navigation-slider {
+  width: 100%;
+  border-radius: 10px;
+}
+
+#navigation-slider .swiper-wrapper span {
+  font-size: 4rem;
+  width: 100%;
+  height: 55vh;
+}
+
+#navigation-slider > .swiper-button-next,#navigation-slider > .swiper-button-prev{
+  width: 30px;
+  height: 30px;
+}

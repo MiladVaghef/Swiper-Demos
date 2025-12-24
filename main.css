@@ -4,6 +4,7 @@
 @import "./sliders/defaultSl.css";
 @import "./sliders/paginationSl.css";
 @import "./sliders/dynamicPaginationSl.css";
+@import "./sliders/navigationSl.css";
 
 :root {
   --secondary-color: #f0f0f0;

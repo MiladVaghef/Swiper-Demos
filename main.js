@@ -1,6 +1,7 @@
 import { defaultSl } from "./sliders/defaultSl.js";
 import { paginationSlider } from "./sliders/paginationSl.js";
 import { dynamicPaginationSl } from "./sliders/dynamicPaginationSl.js";
+import { navigationSl } from "./sliders/navigationSl.js";
 
 addEventListener("DOMContentLoaded", mainSlider);
 
@@ -24,4 +25,5 @@ function sideSliders() {
   defaultSl();
   paginationSlider();
   dynamicPaginationSl();
+  navigationSl();
 }
