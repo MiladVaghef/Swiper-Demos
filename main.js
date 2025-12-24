@@ -12,8 +12,8 @@ function mainSlider() {
     },
 
     navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
+      nextEl: "#main-slider > .swiper-button-next",
+      prevEl: "#main-slider > .swiper-button-prev",
     },
   });
 
