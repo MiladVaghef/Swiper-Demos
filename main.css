@@ -6,6 +6,7 @@
 @import "./sliders/dynamicPaginationSl.css";
 @import "./sliders/navigationSl.css";
 @import "./sliders/progressSl.css";
+@import "./sliders/fractionSl.css";
 
 :root {
   --secondary-color: #f0f0f0;

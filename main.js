@@ -3,6 +3,7 @@ import { paginationSlider } from "./sliders/paginationSl.js";
 import { dynamicPaginationSl } from "./sliders/dynamicPaginationSl.js";
 import { navigationSl } from "./sliders/navigationSl.js";
 import { progressSl } from "./sliders/progressSl.js";
+import { fractionSl } from "./sliders/fractionSl.js";
 
 addEventListener("DOMContentLoaded", mainSlider);
 
@@ -28,4 +29,5 @@ function sideSliders() {
   dynamicPaginationSl();
   navigationSl();
   progressSl();
+  fractionSl();
 }

@@ -1,0 +1,10 @@
+#fraction-slider {
+  width: 100%;
+  border-radius: 10px;
+}
+
+#fraction-slider .swiper-wrapper span {
+  font-size: 4rem;
+  width: 100%;
+  height: 55vh;
+}
